@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HandyDice のプライバシーポリシー。個人情報・トラッキングデータの収集は行いません。">
+  <title>プライバシーポリシー — HandyDice</title>
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --surface: #ffffff;
+      --text: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --accent: #0071e3;
+      --divider: rgba(0, 0, 0, 0.08);
+      --radius: 18px;
+      --max-width: 680px;
+      --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+        "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font);
+      background:
+        radial-gradient(ellipse 120% 80% at 50% -20%, #e8e8ed 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .page {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 22px 64px;
+      flex: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .studio {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 7vw, 40px);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 8px;
+    }
+
+    .app-name {
+      font-size: clamp(17px, 4vw, 21px);
+      font-weight: 500;
+      color: var(--text-secondary);
+      letter-spacing: -0.01em;
+    }
+
+    .updated {
+      margin-top: 16px;
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    main {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    .lead {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.55;
+      margin-bottom: 28px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--divider);
+    }
+
+    section + section {
+      margin-top: 28px;
+      padding-top: 28px;
+      border-top: 1px solid var(--divider);
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 12px;
+    }
+
+    li {
+      position: relative;
+      padding-left: 18px;
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 22px 48px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    footer .brand {
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    @media (min-width: 600px) {
+      .page {
+        padding: 80px 32px 96px;
+      }
+
+      main {
+        padding: 44px 48px;
+      }
+
+      header {
+        margin-bottom: 48px;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --surface: #1c1c1e;
+        --text: #f5f5f7;
+        --text-secondary: #a1a1a6;
+        --accent: #2997ff;
+        --divider: rgba(255, 255, 255, 0.12);
+      }
+
+      body {
+        background:
+          radial-gradient(ellipse 120% 80% at 50% -20%, #1c1c1e 0%, transparent 55%),
+          var(--bg);
+      }
+
+      main {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <span class="studio">shinonomekobo</span>
+      <h1>プライバシーポリシー</h1>
+      <p class="app-name">HandyDice</p>
+      <p class="updated">最終更新日：2026年8月7日</p>
+    </header>
+
+    <main>
+      <p class="lead">
+        当アプリは、ユーザーの個人情報やトラッキングデータ、利用履歴等を一切収集・保存・外部送信していません。
+      </p>
+
+      <section>
+        <h2>収集する情報</h2>
+        <p>
+          HandyDice は、氏名・メールアドレス・端末識別子などの個人を特定できる情報、位置情報、広告識別子（IDFA）、利用履歴、その他のトラッキングデータを一切取得しません。
+        </p>
+      </section>
+
+      <section>
+        <h2>データの保存・送信</h2>
+        <p>
+          アプリ内で取得・保存・外部サーバーへの送信を行うユーザーデータはありません。インターネット通信を利用したデータの送信も行いません。
+        </p>
+      </section>
+
+      <section>
+        <h2>第三者への提供</h2>
+        <p>
+          収集する情報が存在しないため、第三者への提供・共有も一切ありません。広告 SDK や解析ツールも使用していません。
+        </p>
+      </section>
+
+      <section>
+        <h2>お問い合わせ</h2>
+        <p>
+          本ポリシーに関するご質問は、App Store のアプリページに記載の開発者連絡先までお問い合わせください。
+        </p>
+        <ul>
+          <li>アプリ名：HandyDice</li>
+          <li>提供元：shinonomekobo</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p class="brand">shinonomekobo</p>
+    <p>&copy; 2026 shinonomekobo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
